@@ -20,5 +20,8 @@ Route::get('/', function () {
 
 
 Route::get('/card', function () {
+    $comic_array = config('comics');
+    dd($comic_array);
+  
     return view('card');
 });
