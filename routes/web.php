@@ -15,13 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 
 
-Route::get('/card', function () {
+Route::get('/home', function () {
     $comic_array = config('comics');
-    dd($comic_array);
-  
-    return view('card');
+    
+    return view('home', $data);
 });
