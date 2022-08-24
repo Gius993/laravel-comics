@@ -3,7 +3,7 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				@foreach ($comic_array as $item)
+				@foreach ($data as $item)
 					
 				<div class="card">
 					<div class="image">
