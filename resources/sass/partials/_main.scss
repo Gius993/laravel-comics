@@ -1,0 +1,22 @@
+main{
+	background-color:#1c1c1c ;
+}
+.container{
+	padding: 1em 10%;
+	color: white;
+}
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card{
+	height: 200px;
+	background-color: aqua;
+	margin: 1em;
+	width: calc((100% / 8));
+}
+.texts{
+	padding: 10px 0px;
+}

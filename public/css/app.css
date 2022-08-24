@@ -51,6 +51,36 @@ a {
 .background {
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   width: 100%;
-  height: 50vh;
+  height: 400px;
+  background-position: center;
+  background-position-y: initial;
+  position: relative;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+
+.container {
+  padding: 1em 10%;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  height: 200px;
+  background-color: aqua;
+  margin: 1em;
+  width: 12.5%;
+}
+
+.texts {
+  padding: 10px 0px;
 }
 
