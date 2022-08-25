@@ -9,12 +9,14 @@
 			
 			<div class="card">
 				<div class="image">
-					<img src="{{$comics['thumb']}}" alt="">
-				</div>
-				<div class="texts">
-					<h3>{{$comics['title']}}</h3>
-				</div>
-			</div>
+							<a href="{{route('card', ['id' => $comics['id']])}}">
+								<img src="{{$comics['thumb']}}" alt="">
+							</a>
+						</div>
+						<div class="texts">
+							<h3>{{$comics['title']}}</h3>
+						</div>
+					</div>
 			@endforeach
 							
 		</div>
