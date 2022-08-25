@@ -25,6 +25,6 @@
 	</section>
 	
 			<div class="background">
-	
+					
 			</div>
 </header>
