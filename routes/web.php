@@ -32,6 +32,9 @@ Route::get('/card/{id}', function ($id) {
             $current_card = $heroes;
         }
     }
+    if(empty($current_card)){
+        abort('404');
+    }
     
     return view('card', ['current_card' => $current_card]);
 })->name('card');
