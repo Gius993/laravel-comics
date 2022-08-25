@@ -24,7 +24,15 @@ Route::get('/', function () {
 
 
 
-Route::get('/card', function () {
-    
+Route::get('/card/{id}', function ($id) {
+    $data = [
+        'comic_array' => config('comics')
+    ];
+    $current_card = [];
+    foreach($data as $heroes){
+        if($heroes['id'] == $id){
+            $current_card = $heroes;
+        }
+    }
     return view('card');
-});
+})->name('card');
