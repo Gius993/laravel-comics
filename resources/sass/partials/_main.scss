@@ -1,5 +1,6 @@
 main{
-	background-color:#1c1c1c ;
+	
+	background-color:#1c1c1c;
 }
 .container{
 	padding: 1em 10%;
@@ -12,9 +13,7 @@ main{
 	justify-content: space-between;
 }
 .card{
-	height: 200px;
-	background-color: aqua;
-	margin: 1em;
+	margin: 1rem;
 	width: calc((100% / 8));
 }
 .texts{
