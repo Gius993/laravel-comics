@@ -1,0 +1,76 @@
+footer {
+    position: relative;
+    background-image: url("../../img/footer-bg.jpg"); 
+    background-position: center;
+    background-size: contain;
+    .background-img {
+        position: absolute;
+        right: 200px;
+        height: 78%;
+    }
+    .container-footer {
+        padding: 0 10%;
+        display: flex;
+        padding-top: 2em;
+        padding-bottom: 3em;
+        div {
+            margin-right: 1.5em;
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+                li:first-child {
+                    color: white;
+                    font-size: 1em;
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                li a {
+                    color: grey;
+                    text-decoration: none;
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+    p {
+        padding: 0 40% 0 10%;
+        font-size: 0.9em;
+        color: grey;
+        a {
+            text-decoration: none;
+        }
+    }
+    .contact {
+        padding: 0 10%;
+        width: 100%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        .container-footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button {
+                color: white;        
+                padding: 1em;
+                cursor: pointer;
+            }
+            ul {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                li:first-child {
+                    color: $heavenlyDC;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                }
+                li {
+                    margin-left: 1em;
+                }
+                .link a img {
+                    width: 30px;
+                    height: 30px ;
+                }
+            }
+        }
+    }
+}
