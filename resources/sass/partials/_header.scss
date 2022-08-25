@@ -1,5 +1,6 @@
 .logo{
 	width: 100px;
+	padding: 10px 0;
 }
 .blue{
 	background-color: #0282f9;
@@ -7,8 +8,14 @@
 	
 	ul{
 		display: flex;
-		justify-content:space-around;
+		justify-content: flex-end;
 		align-items: center;
+		li{
+			margin-right: 100px;
+			a{
+				margin-right: 20px
+			}
+		}
 	}
 }
 .white{

@@ -1,8 +1,8 @@
 <header>
 	<section class="blue">
 		<ul>
-			<li>dc power visa</li>
-			<li>dc power visa</li>
+			<li>DC POWER VISA</li>
+			<li>ADDICTIONAL DC SISTES</li>
 
 		</ul>
 	</section>
@@ -14,17 +14,24 @@
 		<div class="select">
 			<ul>
 				
-				<li><a href="">aaaa</a></li>
-				<li><a href="">aaaa</a></li>
-				<li><a href="">aaaa</a></li>
-				<li><a href="">aaaa</a></li>
-				<li><a href="">aaaa</a></li>
+				<li><a href="">CHARACTERS</a></li>
+				<li><a href="">COMIC</a></li>
+				<li><a href="">MOVIES</a></li>
+				<li><a href="">TV</a></li>
+				<li><a href="">GAMES</a></li>
+				<li><a href="">COLLECTIBLES</a></li>
+				<li><a href="">VIDEOS</a></li>
+				<li><a href="">FANS</a></li>
+				<li><a href="">NEWS</a></li>
+				<li><a href="">SHOP</a></li>
+				
+				
 
 			</ul>
 		</div>
 	</section>
 	
 			<div class="background">
-					
+
 			</div>
 </header>
