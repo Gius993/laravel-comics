@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
-@section('main_content')
-	<section>
-		<h1>ccccc</h1>
+@section('content')
+	<section class="main_card">
+		<h1>{{ $current_card['title'] }}</h1>
+		<p>{{ $current_card['price'] }}</p>
+		@dump($current_card)
 	</section>
 @endsection

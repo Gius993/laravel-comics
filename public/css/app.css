@@ -154,3 +154,7 @@ footer .contact .container-footer-bottom ul .link a img {
   width: 30px;
   height: 30px;
 }
+
+.main_card {
+  background-color: white;
+}
